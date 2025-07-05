@@ -1,0 +1,12 @@
+.button-primary {
+    width: 141px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.button-secondary {
+    width: 141px;
+    height: 55px;
+    background: none;
+    cursor: pointer;
+}
