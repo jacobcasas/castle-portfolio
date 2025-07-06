@@ -1,3 +1,10 @@
+.top-nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
 .down-chevron {
     font-size: 8px;
     display: inline-block;

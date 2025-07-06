@@ -1,0 +1,23 @@
+.client-container {
+    margin: var(--spacing-10) var(--spacing-3);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-10);
+}
+
+.client-header {
+    text-align: center;
+}
+
+.client-projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-5);
+}
+
+.client-post {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

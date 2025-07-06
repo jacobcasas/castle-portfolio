@@ -10,11 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="top-nav">
-        <a href="index.html"><p class="text-secondary bold">Home</p></a>
-        <a href="portfolio.html"><p class="text-accent bolder">Portfolio</p></a>
-        <a href="clients.html"><p class="text-secondary bold">Clients</p></a>
-        <p class="text-secondary bold">More <span class="down-chevron">&#9660;</span></p>
-    </nav>
+    <div class="portfolio-container">
+        <nav class="top-nav">
+            <a href="index.html"><p class="text-secondary">Home</p></a>
+            <a href="portfolio.html"><p class="text-accent boldest">Portfolio</p></a>
+            <a href="clients.html"><p class="text-secondary">Clients</p></a>
+            <p class="text-secondary" id="more-dropdown">More <span class="down-chevron">&#9660;</span></p>
+        </nav>
+        <div class="portfolio-heading">
+            <h1 class="text-primary">Portfolio</h1>
+            <div class="photo-video-switch">
+                <p class="tab-btn active" data-tab="photos">Photos</p>
+                <p class="tab-btn" data-tab="videos">Videos</p>
+            </div>
+        </div>
+        <div class="portfolio-slider">
+            <div class="portfolio-wrapper">
+                <div class="tab-content" id="images-portfolio"></div>
+                <div class="tab-content" id="video-portfolio"></div> 
+            </div>
+        </div>
+
+    </div>
+
+    <script type="module" src="src/main.js"></script>
 </body>
 </html>
