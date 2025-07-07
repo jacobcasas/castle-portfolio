@@ -12,6 +12,7 @@
 @import url(css/layouts/top-nav.css);
 
 /* Page Style Sheets */
+@import url(css/pages/about.css);
 @import url(css/pages/client.css);
 @import url(css/pages/home.css);
 @import url(css/pages/inquiry-form.css);
