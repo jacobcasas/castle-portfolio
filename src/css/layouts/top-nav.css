@@ -5,8 +5,36 @@
     margin: 0 1rem;
 }
 
+.top-nav p {
+    cursor: pointer;
+}
+
 .down-chevron {
     font-size: 8px;
     display: inline-block;
     vertical-align: middle;
+    transition: transform 0.2s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: var(--spacing-1);
+    padding: var(--spacing-1) var(--spacing-2);
+    background-color: var(--color-gray-400);
+    border-radius: var(--border-radius-sm);
+}
+
+.hidden {
+    display: none;
 }

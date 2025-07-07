@@ -15,7 +15,13 @@
             <a href="index.html"><p class="text-secondary">Home</p></a>
             <a href="portfolio.html"><p class="text-secondary">Portfolio</p></a>
             <a href="clients.html"><p class="text-accent boldest">Clients</p></a>
-            <p class="text-secondary" id="more-dropdown">More <span class="down-chevron">&#9660;</span></p>
+            <div class="dropdown-container">
+                <p class="more-dropdown text-secondary">More <span class="down-chevron">&#9660;</span></p>
+                <div class="dropdown-menu hidden">
+                    <a href="about.html"><p class="text-invert">About</p></a>
+                    <a href="contact.html"><p class="text-invert">Contact</p></a>
+                </div>
+            </div>
         </nav>
 
         <h2 class="text-primary client-header">Client Projects</h2>
@@ -23,6 +29,7 @@
         <div class="client-projects-container" id="client-projects"></div>
     </div>
 
+    <script type="module" src="src/main.js"></script>
     <script type="module" src="src/client-page.js"></script>
 </body>
 </html>

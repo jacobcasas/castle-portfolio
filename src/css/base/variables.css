@@ -21,6 +21,11 @@
     --spacing-19: 152px;
     --spacing-20: 160px;
 
+    --border-radius-sm: 8px;
+    --border-radius-md: 16px;
+    --border-radius-lg: 24px;
+    --border-radius-xl: 32px;
+
     --color-gray-50: #F4F0E0;
     --color-gray-200: #CBB99C;
     --color-gray-400: #A67C52;
