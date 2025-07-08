@@ -2,6 +2,7 @@
     width: 141px;
     height: 55px;
     cursor: pointer;
+    border: none;
 }
 
 .button-secondary {
