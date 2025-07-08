@@ -14,12 +14,19 @@
         <h1 class="text-primary">Contact Me</h1>
         <form class="inquiry-form" method="POST">
             <div class="name-field">
-                <label for="first-name">First Name <span class="required">(required)</span></label>
-                <input type="text" name="first-name" required>
-                <label for="last-name">Last Name <span class="required">(required)</span></label>
+                <div id="fn-wrapper">
+                    <label for="first-name">First Name <span class="required">(required)</span></label>
+                    <input type="text" name="first-name" required>
+                </div>
+                <div id="ln-wrapper">
+                    <label for="last-name">Last Name <span class="required">(required)</span></label>
+                    <input type="text" name="last-name">
+                </div>
             </div>
-            <label for="email">Email <span class="required">(required)</span></label>
-            <input type="email" name="email" required>
+            <div id="email-field">
+                <label for="email">Email <span class="required">(required)</span></label>
+                <input type="email" name="email" required>
+            </div>
             <fieldset>
                 <legend>Services <span class="required">(required)</span></legend>
                 <label>
@@ -35,8 +42,10 @@
                     Service 3
                 </label>
             </fieldset>
-            <label for="comments">Comments?</label>
-            <textarea name="comments" id="comments" rows="5"></textarea>
+            <div id="comment-field">
+               <label for="comments">Comments?</label>
+                <textarea name="comments" id="comments" rows="5"></textarea> 
+            </div>
         </form>
         <button class="button-primary | bg-accent text-primary border-radius-sm boldest" type="submit">send</button>
     </div>
