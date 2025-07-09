@@ -2,17 +2,36 @@
 
 const portfolioImages = document.getElementById('images-portfolio');
 const portfolioVideos = document.getElementById('video-portfolio');
+const viewportWidth = window.innerWidth;
 
-portfolioImages.innerHTML = `
-    <div class="image-placeholder"></div>
-    <div class="image-placeholder"></div>
-    <div class="image-placeholder"></div>
-`;
+if (viewportWidth < 1024) {
+    portfolioImages.innerHTML = `
+        <div class="image-placeholder"></div>
+        <div class="image-placeholder"></div>
+        <div class="image-placeholder"></div>
+    `;
+} else {
+    portfolioImages.innerHTML = `
+        <div class="bento">
+            <div class="item tall"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item small"></div>
+            <div class="item wide"></div>
+            <div class="item "></div>
+        </div> 
+    `
+}
+
 
 portfolioVideos.innerHTML = `
-    <div class="image-placeholder"></div>
-    <div class="image-placeholder"></div>
-    <div class="image-placeholder"></div>
+    <div class="video-wrapper">
+        <div class="image-placeholder"></div>
+        <div class="image-placeholder"></div>
+        <div class="image-placeholder"></div>
+    </div>
 `;
 
 const tabButtons = document.querySelectorAll('.tab-btn');

@@ -1,0 +1,33 @@
+.bento {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 250px;
+    gap: var(--spacing-2);
+    width: 80%;
+    padding: 1rem;
+}
+
+.item {
+    background-color: #ccc;
+    border-radius: var(--border-radius-sm);
+    grid-column: span 2;
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: scale(1.03);
+    z-index: 1;
+}
+
+.item.small {
+    grid-column: span 1;
+}
+
+.item.tall {
+    grid-row: span 2;
+}
+
+.item.wide {
+    grid-column: span 3;
+}
+

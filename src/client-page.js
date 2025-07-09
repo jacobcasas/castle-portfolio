@@ -1,6 +1,8 @@
 //client page content generation
 
 const clientProjects = document.getElementById('client-projects');
+const viewportWidth = window.viewportWidth;
+
 
 clientProjects.innerHTML = `
     <div class="client-post">
