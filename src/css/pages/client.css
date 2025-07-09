@@ -24,5 +24,11 @@
 }
 
 @media (min-width: 1024px) {
-    
+    .client-container {
+        margin: var(--spacing-10) var(--spacing-20);
+    }
+
+    .client-post {
+        width: 60%;
+    }
 }
