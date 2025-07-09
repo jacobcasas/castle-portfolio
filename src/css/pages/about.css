@@ -18,3 +18,26 @@
 .about-paragraph {
     text-align: start;
 }
+
+@media (min-width: 1024px) {
+    .about-container {
+        justify-content: center;
+        align-items: center;
+        margin: var(--spacing-10) var(--spacing-20);
+    }
+
+    .about-title-and-photo {
+        align-items: center;
+        gap: var(--spacing-10);
+    }
+
+    .image-placeholder-2 {
+        min-width: 350px;
+        height: 450px;
+    }
+
+    .about-paragraph {
+        padding: 0 var(--spacing-20);
+        text-align: justify;
+    }
+}

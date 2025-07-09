@@ -38,3 +38,10 @@
 .hidden {
     display: none;
 }
+
+@media (min-width: 1024px) {
+    .top-nav {
+        justify-content: center;
+        gap: var(--spacing-5);
+    }
+}
