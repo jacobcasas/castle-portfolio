@@ -32,6 +32,9 @@
     --color-gray-600: #3E2C1C;
     --color-gray-800: #1E1E1E;
     --color-accent: #2F5E3F;
+    --color-1: #fceded00;
+    --color-2: #c1c1c100;
+    --linear-gradient-1: linear-gradient(var(--color-1), var(--color-2))
 }
 
 /* Color Tokens */
