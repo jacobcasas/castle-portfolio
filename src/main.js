@@ -1,6 +1,6 @@
 //nav dropdown menu
-const moreDropdown = document.querySelector('.more-dropdown');
-const dropdownMenu = document.querySelector('.dropdown-menu');
+const moreDropdown = document.getElementById('more-dropdown');
+const dropdownMenu = document.getElementById('dropdown-menu');
 const chevron = document.querySelector('.down-chevron');
 const viewportWidth = window.innerWidth;
 const portfolioButton = document.getElementById('portfolio-button');
