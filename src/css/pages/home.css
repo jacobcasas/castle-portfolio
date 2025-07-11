@@ -7,7 +7,7 @@
     width: 100vw;
     height: 100vh;
     gap: var(--spacing-4);
-    margin: 0 auto;
+    overflow: hidden;
 }
 
 .logo-and-subheading {
