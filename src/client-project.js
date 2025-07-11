@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const totalSlides = client.images.length;
 
     if (client) {
-        fetch(`/descriptions/client${clientId}.txt`)
+        fetch(`./public/descriptions/client${clientId}.txt`)
             .then(response => response.text())
             .then(descriptionText => {
                 projectContainer.innerHTML = `
