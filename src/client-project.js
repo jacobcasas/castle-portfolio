@@ -1,4 +1,4 @@
-import { clients } from "../client-list";
+import { clients } from "./client-list";
 
 document.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
