@@ -41,7 +41,7 @@
     overflow: hidden;
 }
 
-.image-wrapper {
+.image-wrapper-client {
     display: flex;
     gap: var(--spacing-half);
     transition: transform 0.3s ease;

@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="client-images-carousel">
                             <button class="carousel-button | text-primary" id="prev-picture">&lt;</button>
                             <div class="client-image-container">
-                                <div class="image-wrapper">
+                                <div class="image-wrapper-client">
                                     <div class="${client.images[0]}"></div>
                                     <div class="${client.images[1]}"></div>
                                     <div class="${client.images[2]}"></div>
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                     <p class="description-text | text-primary">${descriptionText}</p>
                 `;
-                const imageWrapper = document.querySelector('.image-wrapper');
+                const imageWrapper = document.querySelector('.image-wrapper-client');
                 const prevButton = document.getElementById('prev-picture');
                 const nextButton = document.getElementById('next-picture');
                 const photoIndex = document.querySelector('.photo-index');

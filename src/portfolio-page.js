@@ -6,9 +6,11 @@ const viewportWidth = window.innerWidth;
 
 if (viewportWidth < 1024) {
     portfolioImages.innerHTML = `
-        <div class="image-placeholder"></div>
-        <div class="image-placeholder"></div>
-        <div class="image-placeholder"></div>
+        <div class="image-wrapper">
+            <div class="image-placeholder"></div>
+            <div class="image-placeholder"></div>
+            <div class="image-placeholder"></div>
+        </div>
     `;
 } else {
     portfolioImages.innerHTML = `
@@ -39,7 +41,7 @@ const portfolioWrapper = document.querySelector('.portfolio-wrapper');
 
 tabButtons.forEach((button, index) => {
     button.addEventListener('click', () => {
-        portfolioWrapper.style.transform = `translateX(-${index * 100}vw)`;
+        portfolioWrapper.style.transform = `translateX(-${index * 50}%)`;
 
         tabButtons.forEach(btn => btn.classList.remove('active'));
         button.classList.add('active');
